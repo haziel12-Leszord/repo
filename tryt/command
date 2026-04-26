@@ -1,3 +1,6 @@
-print('siema')
-tryt = "haizel"
-print(tryt)
+import tkinter as tk
+
+okno = tk.Tk()
+tk.Label(okno, text="Siema tu haziel")
+
+okno.mainloop()
